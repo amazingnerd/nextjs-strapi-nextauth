@@ -18,6 +18,10 @@ export default function SignIn() {
         console.warn("error: ", error);
       }
     });
+    // .catch((error) => {
+    //   console.log("hello world");
+    //   console.log("error: ", error);
+    // });
   };
 
   return (
